@@ -43,8 +43,8 @@ public class LoginTest extends BaseTest {
             loginPage.clickLogin();
 
             // Add assertion for invalid login
-            String expectedErrorMessage = "Expected Error Message";
-            WebElement errorElement = driver.findElement(By.xpath("your_error_message_xpath"));
+            String expectedErrorMessage = "Please enter valid username and password";
+            WebElement errorElement = driver.findElement(By.xpath("//*[@class='close']"));
             Assert.assertEquals(errorElement.getText(), expectedErrorMessage);
 
         } catch (Exception e) {
@@ -58,8 +58,8 @@ public class LoginTest extends BaseTest {
                 loginPage.clickLogin();
 
                 // Add assertion for invalid login
-                String expectedErrorMessage = "Expected Error Message";
-                WebElement errorElement = driver.findElement(By.xpath("your_error_message_xpath"));
+                String expectedErrorMessage = "Please enter valid username and password";
+                WebElement errorElement = driver.findElement(By.xpath("//*[@class='close']"));
                 Assert.assertEquals(errorElement.getText(), expectedErrorMessage);
 
             } catch (Exception e) {
