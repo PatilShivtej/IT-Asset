@@ -13,7 +13,7 @@ public class LoginPage {
 
    
     By usernameField = By.xpath("//input[@id='username']");
-   By passwordField = By.xpath("//input[@id='password']");
+    By passwordField = By.xpath("//input[@id='password']");
     By loginButton = By.xpath("//button[@id='btnContinue']");
 
     public void enterUsername(String username) {

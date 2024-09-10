@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-15">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
@@ -88,5 +88,7 @@
 	<classpathentry kind="lib" path="C:/Users/Shivtej/Downloads/selenium-java-4.12.1/lib/byte-buddy-1.14.5.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Shivtej/Downloads/selenium-java-4.12.1/lib/checker-qual-3.33.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Shivtej/Downloads/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shivtej/Downloads/apache-log4j-2.24.0-bin/log4j-core-2.24.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shivtej/Downloads/apache-log4j-2.24.0-bin/log4j-api-2.24.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

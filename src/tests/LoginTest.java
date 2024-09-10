@@ -23,11 +23,12 @@ public class LoginTest extends BaseTest {
     public void testValidLogin() {
         try {
             loginPage.enterUsername("admin");
-            loginPage.enterPassword("");
+            loginPage.clickLogin();
+            loginPage.enterPassword("Pass@123");
             loginPage.clickLogin();
 
             // Add assertion for successful login
-            String expectedTitle = "Home";
+            String expectedTitle = "Home page";
             Assert.assertEquals(driver.getTitle(), expectedTitle);
 
         } catch (Exception e) {
@@ -39,7 +40,8 @@ public class LoginTest extends BaseTest {
     public void testInvalidLogin1() {
         try {
             loginPage.enterUsername("admin");
-            loginPage.enterPassword("Pass@123");
+            loginPage.clickLogin();
+            loginPage.enterPassword(" ");
             loginPage.clickLogin();
 
             // Add assertion for invalid login
@@ -54,7 +56,7 @@ public class LoginTest extends BaseTest {
         @Test
         public void testInvalidLogin() {
             try {
-                loginPage.enterUsername("");
+                loginPage.enterUsername(" ");
                 loginPage.clickLogin();
 
                 // Add assertion for invalid login
