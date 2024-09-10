@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-10T19:52:37 IST" name="Default suite" finished-at="2024-09-10T19:52:38 IST" duration-ms="590">
+  <suite started-at="2024-09-10T21:54:54 IST" name="Default suite" finished-at="2024-09-10T21:54:55 IST" duration-ms="1116">
     <groups>
     </groups>
-    <test started-at="2024-09-10T19:52:37 IST" name="Default test" finished-at="2024-09-10T19:52:38 IST" duration-ms="590">
+    <test started-at="2024-09-10T21:54:54 IST" name="Default test" finished-at="2024-09-10T21:54:55 IST" duration-ms="1116">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@61c4eee0]" started-at="2024-09-10T19:52:37 IST" name="setUp" finished-at="2024-09-10T19:52:38 IST" duration-ms="539" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@433defed]" started-at="2024-09-10T21:54:54 IST" name="setUp" finished-at="2024-09-10T21:54:55 IST" duration-ms="1035" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-LVD2I8A', ip: '192.168.38.1'
+Host info: host: 'DESKTOP-LVD2I8A', ip: '192.168.180.1'
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -19,7 +19,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-LVD2I8A', ip: '192.168.38.1'
+Host info: host: 'DESKTOP-LVD2I8A', ip: '192.168.180.1'
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -72,11 +72,11 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testInvalidLogin()[pri:0, instance:tests.LoginTest@61c4eee0]" started-at="2024-09-10T19:52:38 IST" name="testInvalidLogin" finished-at="2024-09-10T19:52:38 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testInvalidLogin()[pri:0, instance:tests.LoginTest@433defed]" started-at="2024-09-10T21:54:55 IST" name="testInvalidLogin" finished-at="2024-09-10T21:54:55 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-LVD2I8A', ip: '192.168.38.1'
+Host info: host: 'DESKTOP-LVD2I8A', ip: '192.168.180.1'
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -84,7 +84,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-LVD2I8A', ip: '192.168.38.1'
+Host info: host: 'DESKTOP-LVD2I8A', ip: '192.168.180.1'
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -137,11 +137,11 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method signature="testInvalidLogin1()[pri:0, instance:tests.LoginTest@61c4eee0]" started-at="2024-09-10T19:52:38 IST" name="testInvalidLogin1" finished-at="2024-09-10T19:52:38 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testInvalidLogin1()[pri:0, instance:tests.LoginTest@433defed]" started-at="2024-09-10T21:54:55 IST" name="testInvalidLogin1" finished-at="2024-09-10T21:54:55 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-LVD2I8A', ip: '192.168.38.1'
+Host info: host: 'DESKTOP-LVD2I8A', ip: '192.168.180.1'
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -149,7 +149,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-LVD2I8A', ip: '192.168.38.1'
+Host info: host: 'DESKTOP-LVD2I8A', ip: '192.168.180.1'
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -202,11 +202,11 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin1 -->
-        <test-method signature="testValidLogin()[pri:0, instance:tests.LoginTest@61c4eee0]" started-at="2024-09-10T19:52:38 IST" name="testValidLogin" finished-at="2024-09-10T19:52:38 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testValidLogin()[pri:0, instance:tests.LoginTest@433defed]" started-at="2024-09-10T21:54:55 IST" name="testValidLogin" finished-at="2024-09-10T21:54:55 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-LVD2I8A', ip: '192.168.38.1'
+Host info: host: 'DESKTOP-LVD2I8A', ip: '192.168.180.1'
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -214,7 +214,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-LVD2I8A', ip: '192.168.38.1'
+Host info: host: 'DESKTOP-LVD2I8A', ip: '192.168.180.1'
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -267,7 +267,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@61c4eee0]" started-at="2024-09-10T19:52:38 IST" name="tearDown" finished-at="2024-09-10T19:52:38 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@433defed]" started-at="2024-09-10T21:54:55 IST" name="tearDown" finished-at="2024-09-10T21:54:55 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
