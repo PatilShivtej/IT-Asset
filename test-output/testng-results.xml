@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-10T18:54:54 IST" name="Default suite" finished-at="2024-09-10T18:54:54 IST" duration-ms="559">
+  <suite started-at="2024-09-10T19:52:37 IST" name="Default suite" finished-at="2024-09-10T19:52:38 IST" duration-ms="590">
     <groups>
     </groups>
-    <test started-at="2024-09-10T18:54:54 IST" name="Default test" finished-at="2024-09-10T18:54:54 IST" duration-ms="559">
+    <test started-at="2024-09-10T19:52:37 IST" name="Default test" finished-at="2024-09-10T19:52:38 IST" duration-ms="590">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@61c4eee0]" started-at="2024-09-10T18:54:54 IST" name="setUp" finished-at="2024-09-10T18:54:54 IST" duration-ms="493" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@61c4eee0]" started-at="2024-09-10T19:52:37 IST" name="setUp" finished-at="2024-09-10T19:52:38 IST" duration-ms="539" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -72,7 +72,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testInvalidLogin()[pri:0, instance:tests.LoginTest@61c4eee0]" started-at="2024-09-10T18:54:54 IST" name="testInvalidLogin" finished-at="2024-09-10T18:54:54 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testInvalidLogin()[pri:0, instance:tests.LoginTest@61c4eee0]" started-at="2024-09-10T19:52:38 IST" name="testInvalidLogin" finished-at="2024-09-10T19:52:38 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -137,7 +137,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method signature="testInvalidLogin1()[pri:0, instance:tests.LoginTest@61c4eee0]" started-at="2024-09-10T18:54:54 IST" name="testInvalidLogin1" finished-at="2024-09-10T18:54:54 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testInvalidLogin1()[pri:0, instance:tests.LoginTest@61c4eee0]" started-at="2024-09-10T19:52:38 IST" name="testInvalidLogin1" finished-at="2024-09-10T19:52:38 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -202,7 +202,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin1 -->
-        <test-method signature="testValidLogin()[pri:0, instance:tests.LoginTest@61c4eee0]" started-at="2024-09-10T18:54:54 IST" name="testValidLogin" finished-at="2024-09-10T18:54:54 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testValidLogin()[pri:0, instance:tests.LoginTest@61c4eee0]" started-at="2024-09-10T19:52:38 IST" name="testValidLogin" finished-at="2024-09-10T19:52:38 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -267,7 +267,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@61c4eee0]" started-at="2024-09-10T18:54:54 IST" name="tearDown" finished-at="2024-09-10T18:54:54 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@61c4eee0]" started-at="2024-09-10T19:52:38 IST" name="tearDown" finished-at="2024-09-10T19:52:38 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

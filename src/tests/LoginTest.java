@@ -27,7 +27,7 @@ public class LoginTest extends BaseTest {
             loginPage.clickLogin();
 
             // Add assertion for successful login
-            String expectedTitle = "Expected Page Title after Login";
+            String expectedTitle = "Home";
             Assert.assertEquals(driver.getTitle(), expectedTitle);
 
         } catch (Exception e) {
